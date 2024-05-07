@@ -234,7 +234,8 @@ main {
   /* width: 100vw; */
   background-image: url(images/background4.jpeg);
   background-attachment: fixed;
-  background-size: 1270px 680px;
+  background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   background-repeat: no-repeat;
   background-position: right top;
   display: flex;
@@ -243,6 +244,7 @@ main {
   padding: 70px;
   position: relative;
   background-color: var(--bgColor);
+  /* border: 2px solid yellow; */
 }
 
 #home::before {
@@ -285,8 +287,11 @@ main {
 /* MOBILE VIEW  */
 @media only screen and (max-width: 720px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 1000px 631px;
+    background-size: cover; 
+    background-position: center;
+    
   }
 
   #home .home-row h1 {
@@ -307,8 +312,10 @@ main {
 
 @media only screen and (max-width: 580px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 900px 602px;
+    background-size: cover; 
+    background-position: center;
   }
 
   #home .home-row h1 {
@@ -325,8 +332,10 @@ main {
 
 @media only screen and (max-width: 516px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 800px 602px;
+    background-size: cover; 
+    background-position: center;
   }
 
   #home .home-row h1 {
@@ -343,8 +352,11 @@ main {
 
 @media only screen and (max-width: 448px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 760px 602px;
+    /* background-size: 760px 602px; */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center;
   }
 
   #home .home-row h1 {
@@ -361,8 +373,10 @@ main {
 
 @media only screen and (max-width: 438px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 730px 602px;
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   }
 
   #home .home-row h1 {
@@ -379,8 +393,10 @@ main {
 
 @media only screen and (max-width: 430px) {
   #home {
+    height: 100vh;
     padding: 30px;
-    background-size: 550px 602px;
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   }
 
   #home .home-row h1 {
@@ -399,7 +415,8 @@ main {
   #home {
     height: 100vh;
     padding: 30px;
-    background-size: 510px 560px;
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   }
 
   #home .home-row h1 {
@@ -418,7 +435,8 @@ main {
   #home {
     height: 100vh;
     padding: 30px;
-    background-size: 480px 480px;
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   }
 
   #home .home-row h1 {
@@ -437,7 +455,8 @@ main {
   #home {
     height: 100vh;
     padding: 30px;
-    background-size: 480px 490px;
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; 
   }
 }
 
