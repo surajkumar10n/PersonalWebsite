@@ -1026,6 +1026,7 @@ main {
   #service .service-row {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
+    flex-wrap: wrap;
   }
 }
 
@@ -1036,7 +1037,9 @@ main {
 
   #service .service-row {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
+    grid-gap: 25px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -1152,11 +1155,13 @@ main {
 /* Mobile view */
 @media only screen and (max-width: 800px) {
   #contact {
-    padding: 50px;
+    padding: 40px;
   }
 
   #contact .contact-row {
     flex-direction: column;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
     gap: 20px;
   }
 }
@@ -1165,6 +1170,13 @@ main {
   #contact {
     padding: 50px 10px;
   }
+  .contact-left{
+    width: inherit;
+  }
+  .contact-right{
+    width: inherit;
+  }
+
 }
 
 #contact .footer-iconTop a {
